@@ -238,3 +238,6 @@ button.inverted-button:hover, button.inverted-button:focus {
     text-decoration: none;
 }
 
+.footer-contact-link:hover, .footer-contact-link:focus {
+    color: var(--site-accent-color);
+}
