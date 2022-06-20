@@ -190,7 +190,7 @@ button.inverted-button {
 
 button.inverted-button:hover, button.inverted-button:focus {
     background-color: var(--site-accent-color);
-    color: var(--white-text-color);
+    color: var(--button-color);
 }
 
 /* Projects list */
