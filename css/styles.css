@@ -158,8 +158,6 @@ button:hover, button:focus {
     
 }
 
-
-
 .team-title, .team-paragraph {
     color: var(--secondary-text-color);
     font-size: 16px;
