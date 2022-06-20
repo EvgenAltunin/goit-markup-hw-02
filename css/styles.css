@@ -90,9 +90,13 @@ button {
     color: var(--white-text-color);
     border: none;
     cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 1.9;
+    font-size: 1.87;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
 }
@@ -153,9 +157,7 @@ button:hover, button:focus {
     
 }
 
-.team-title {
-    font-weight: 500;
-}
+
 
 .team-title, .team-paragraph {
     color: var(--secondary-text-color);
@@ -164,7 +166,10 @@ button:hover, button:focus {
     text-align: center;
     letter-spacing: 0.03em;
 }
-
+.team-title {
+    font-weight: 500;
+    color: var(--main-text-color)
+}
 
 /* =============================================================== */
 /* Portfolio filter (portfolio.html) */
@@ -174,7 +179,7 @@ button:hover, button:focus {
 }
 
 button.inverted-button {
-    background-color: var(--main-site-color);
+    background-color: #F5F4FA;
     color: var(--site-accent-color);
     font-weight: 500;
     font-size: 16px;
