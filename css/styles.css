@@ -91,7 +91,7 @@ button {
     color: var(--white-text-color);
     border: none;
     cursor: pointer;
-    font-family: 'Roboto';
+    font-family: inherit;
     font-style: normal;
     font-weight: 700;
     font-size: 1.87;
