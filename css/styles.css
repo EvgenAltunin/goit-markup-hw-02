@@ -6,6 +6,7 @@
     --main-site-color: #E5E5E5;
     --secondary-site-color: #2F303A;
     --site-accent-color: #2196F3;
+    --button-color: #F5F4FA;
 }
 
 /* General */
@@ -102,7 +103,7 @@ button {
 }
 
 button:hover, button:focus {
-    background-color: var(--white-text-color);
+    background-color: var(--button-color);
     color: var(--site-accent-color);
 }
 
@@ -179,7 +180,7 @@ button:hover, button:focus {
 }
 
 button.inverted-button {
-    background-color: #F5F4FA;
+    background-color: var(--button-color);
     color: var(--site-accent-color);
     font-weight: 500;
     font-size: 16px;
