@@ -94,8 +94,8 @@ button {
     font-family: inherit;
     font-style: normal;
     font-weight: 700;
-    font-size: 1.87;
-    line-height: 30px;
+    font-size: 16px;
+    line-height: 1.87;
     display: flex;
     align-items: center;
     text-align: center;
@@ -177,16 +177,16 @@ button:hover, button:focus {
     list-style: none;
 }
 
-button.inverted-button {
+button.portfolio-button {
     background-color: var(--button-color);
-    color: var(--site-accent-color);
+    color: var(--main-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.03em;
 }
 
-button.inverted-button:hover, button.inverted-button:focus {
+button.portfolio-button:hover, button.portfolio-button:focus {
     background-color: var(--site-accent-color);
     color: var(--button-color);
 }
